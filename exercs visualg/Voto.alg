@@ -11,7 +11,7 @@ inicio
 // Seção de Comandos
    i:=0
    enquanto (i>=0) faca
-            escreval ("Digite o seu voto:")
+            escreval ("Digite o nome do seu candidato:")
             leia (voto)
             se (voto="Jose da Silva") ou (voto="js") entao
                votojs:=1
