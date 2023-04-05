@@ -30,15 +30,15 @@ namespace csharpexercs2023
             int i = 1;
             while (i > 0)
             {
-                if (voto == "js")
+                if (voto == "js") || (voto == "José da Silva")
                 {
                     vtjs++;
                 }
-                else if (voto == "mj")
+                else if (voto == "mj") || (voto == "Maria Juruma")
                 {
                     vtmj++;
                 }
-                else if (voto == "jt")
+                else if (voto == "jt") || (voto == "João da Tapioca")
                 {
                     vtjt++;
                 }
