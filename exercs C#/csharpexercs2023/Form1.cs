@@ -56,5 +56,12 @@ namespace csharpexercs2023
             frmvoto voto = new frmvoto();
             voto.Show();
         }
+
+        private void votoToolStripMenuItem_Click_1(object sender, EventArgs e)
+        {
+            this.Hide();
+            frmvoto voto = new frmvoto();
+            voto.Show();
+        }
     }
 }

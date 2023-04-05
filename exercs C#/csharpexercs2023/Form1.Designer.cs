@@ -31,11 +31,11 @@
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.menuStrip2 = new System.Windows.Forms.MenuStrip();
             this.programasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.sairToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.postoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.tabuadaWhileToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.tabuadaDowhileToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.tabuadaForToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.sairToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.votoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip2.SuspendLayout();
             this.SuspendLayout();
@@ -71,13 +71,6 @@
             this.programasToolStripMenuItem.Size = new System.Drawing.Size(76, 20);
             this.programasToolStripMenuItem.Text = "Programas";
             // 
-            // sairToolStripMenuItem
-            // 
-            this.sairToolStripMenuItem.Name = "sairToolStripMenuItem";
-            this.sairToolStripMenuItem.Size = new System.Drawing.Size(38, 20);
-            this.sairToolStripMenuItem.Text = "Sair";
-            this.sairToolStripMenuItem.Click += new System.EventHandler(this.sairToolStripMenuItem_Click);
-            // 
             // postoToolStripMenuItem
             // 
             this.postoToolStripMenuItem.Name = "postoToolStripMenuItem";
@@ -106,12 +99,19 @@
             this.tabuadaForToolStripMenuItem.Text = "Tabuada for";
             this.tabuadaForToolStripMenuItem.Click += new System.EventHandler(this.tabuadaForToolStripMenuItem_Click);
             // 
+            // sairToolStripMenuItem
+            // 
+            this.sairToolStripMenuItem.Name = "sairToolStripMenuItem";
+            this.sairToolStripMenuItem.Size = new System.Drawing.Size(38, 20);
+            this.sairToolStripMenuItem.Text = "Sair";
+            this.sairToolStripMenuItem.Click += new System.EventHandler(this.sairToolStripMenuItem_Click);
+            // 
             // votoToolStripMenuItem
             // 
             this.votoToolStripMenuItem.Name = "votoToolStripMenuItem";
             this.votoToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.votoToolStripMenuItem.Text = "Voto";
-            this.votoToolStripMenuItem.Click += new System.EventHandler(this.votoToolStripMenuItem_Click);
+            this.votoToolStripMenuItem.Click += new System.EventHandler(this.votoToolStripMenuItem_Click_1);
             // 
             // frmmenu
             // 
