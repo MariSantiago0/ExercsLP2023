@@ -1,7 +1,7 @@
 EXERCÍCIOS DO VISUALG PASSADOS EM SALA DE AULA
 
 
-##EXERCÍCIO 1
+##EXERCÍCIO 1 - Gasolina
 
 // criação do arquivo Gasolina.alg
 definição da variável comb do tipo caracter e das variáveis pre, val, lit e desc do tipo real
@@ -22,7 +22,7 @@ finalização do algoritmo //
 
 
 
-#EXERCÍCIO 2
+#EXERCÍCIO 2 - Votação
 
 // criação do arquivo Voto.alg
 declaração das variáveis porcentjs, porcentmj, porcentjt, votototal, votojs, votomj e votojt do tipo inteiro, declaração fa variável voto do tipo caracter e declaração da variável i do tipo inteiro
