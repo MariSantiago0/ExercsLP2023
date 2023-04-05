@@ -14,3 +14,19 @@ C:\Users\maria.DESKTOP-FVU5RU8\OneDrive\Área de Trabalho\ExercsPOO2023\csharpex
 C:\Users\maria.DESKTOP-FVU5RU8\OneDrive\Área de Trabalho\ExercsPOO2023\csharpexercs2023\obj\Debug\csharpexercs2023.frmtabdowhile.resources
 C:\Users\maria.DESKTOP-FVU5RU8\OneDrive\Área de Trabalho\ExercsPOO2023\csharpexercs2023\obj\Debug\csharpexercs2023.frmtabfor.resources
 C:\Users\maria.DESKTOP-FVU5RU8\OneDrive\Área de Trabalho\ExercsPOO2023\csharpexercs2023\obj\Debug\csharpexercs2023.frmvoto.resources
+C:\Users\maria.DESKTOP-FVU5RU8\OneDrive\Documentos\POO\ExercsLP2023\exercs C#\csharpexercs2023\bin\Debug\csharpexercs2023.exe.config
+C:\Users\maria.DESKTOP-FVU5RU8\OneDrive\Documentos\POO\ExercsLP2023\exercs C#\csharpexercs2023\bin\Debug\csharpexercs2023.exe
+C:\Users\maria.DESKTOP-FVU5RU8\OneDrive\Documentos\POO\ExercsLP2023\exercs C#\csharpexercs2023\bin\Debug\csharpexercs2023.pdb
+C:\Users\maria.DESKTOP-FVU5RU8\OneDrive\Documentos\POO\ExercsLP2023\exercs C#\csharpexercs2023\obj\Debug\csharpexercs2023.csproj.AssemblyReference.cache
+C:\Users\maria.DESKTOP-FVU5RU8\OneDrive\Documentos\POO\ExercsLP2023\exercs C#\csharpexercs2023\obj\Debug\csharpexercs2023.csproj.SuggestedBindingRedirects.cache
+C:\Users\maria.DESKTOP-FVU5RU8\OneDrive\Documentos\POO\ExercsLP2023\exercs C#\csharpexercs2023\obj\Debug\csharpexercs2023.frmmenu.resources
+C:\Users\maria.DESKTOP-FVU5RU8\OneDrive\Documentos\POO\ExercsLP2023\exercs C#\csharpexercs2023\obj\Debug\csharpexercs2023.frmposto.resources
+C:\Users\maria.DESKTOP-FVU5RU8\OneDrive\Documentos\POO\ExercsLP2023\exercs C#\csharpexercs2023\obj\Debug\csharpexercs2023.frmtabwhile.resources
+C:\Users\maria.DESKTOP-FVU5RU8\OneDrive\Documentos\POO\ExercsLP2023\exercs C#\csharpexercs2023\obj\Debug\csharpexercs2023.frmtabdowhile.resources
+C:\Users\maria.DESKTOP-FVU5RU8\OneDrive\Documentos\POO\ExercsLP2023\exercs C#\csharpexercs2023\obj\Debug\csharpexercs2023.frmtabfor.resources
+C:\Users\maria.DESKTOP-FVU5RU8\OneDrive\Documentos\POO\ExercsLP2023\exercs C#\csharpexercs2023\obj\Debug\csharpexercs2023.frmvoto.resources
+C:\Users\maria.DESKTOP-FVU5RU8\OneDrive\Documentos\POO\ExercsLP2023\exercs C#\csharpexercs2023\obj\Debug\csharpexercs2023.Properties.Resources.resources
+C:\Users\maria.DESKTOP-FVU5RU8\OneDrive\Documentos\POO\ExercsLP2023\exercs C#\csharpexercs2023\obj\Debug\csharpexercs2023.csproj.GenerateResource.cache
+C:\Users\maria.DESKTOP-FVU5RU8\OneDrive\Documentos\POO\ExercsLP2023\exercs C#\csharpexercs2023\obj\Debug\csharpexercs2023.csproj.CoreCompileInputs.cache
+C:\Users\maria.DESKTOP-FVU5RU8\OneDrive\Documentos\POO\ExercsLP2023\exercs C#\csharpexercs2023\obj\Debug\csharpexercs2023.exe
+C:\Users\maria.DESKTOP-FVU5RU8\OneDrive\Documentos\POO\ExercsLP2023\exercs C#\csharpexercs2023\obj\Debug\csharpexercs2023.pdb
