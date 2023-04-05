@@ -1,14 +1,14 @@
 algoritmo "Gasolina"
-// Função :
+// FunÃ§Ã£o :
 // Autor : Mariana Santiago e Yuri Telis
 // Data : 22/03/2023
-// Seção de Declarações 
+// SeÃ§Ã£o de DeclaraÃ§Ãµes 
 var
    comb : caracter
    pre, val, lit, desc : real
 inicio
-// Seção de Comandos
-   escreva ("Digite o tipo de combustível (A- álcool; G- gasolina):")
+// SeÃ§Ã£o de Comandos
+   escreva ("Digite o tipo de combustÃ­vel (A- Ã¡lcool; G- gasolina):")
    leia(comb)
    escreva ("Digite quantos litros vai abastecer: ")
    leia (lit)
@@ -30,10 +30,10 @@ inicio
            val:=pre-desc
         senao
              pre:=5,50*lit
-             desc:=(4/100)*pre
+             desc:=(6/100)*pre
              val:=pre-desc
         fimse
         fimse
    fimse
-   escreva ("O valor a pagar é:", val)
+   escreva ("O valor a pagar Ã©:", val)
 fimalgoritmo
