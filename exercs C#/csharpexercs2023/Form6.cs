@@ -12,53 +12,45 @@ namespace csharpexercs2023
 {
     public partial class frmvoto : Form
     {
-        public frmvoto()
-        {
-            InitializeComponent();
-        }
 
-        private void btncalcular_Click(object sender, EventArgs e)
-        {
-            double vtjs = 0, vtmj = 0, vtjt = 0, pjs = 0, pmj = 0, pjt = 0, total = 0;
-            int i = 0;
-            string voto = "";
-            voto = txtvoto.Text;
-            i = 1;
-            while (i > 0)
+            double vtjs = 0, vtmj = 0, vtjt = 0, total, pjs, pmj, pjt;
+            string voto;
+
+            private void btnvotar_Click(object sender, EventArgs e)
             {
+                voto = Convert.ToString(txtvoto.Text);
                 if (voto == "js")
-                {
                     vtjs++;
-                }
-                else if (voto == "mj")
-                {
+                if (voto == "mj")
                     vtmj++;
-                }
-                else if (voto == "jt")
-                {
+                if (voto == "jt")
                     vtjt++;
-                }
-                total++;
 
-                pjs = vtjs / total * 100;
-                pmj = vtmj / total * 100;
-                pjt = vtjt / total * 100;
+                // Adiciona o retorno
+                return;
+            }
 
-                if (vtjs > vtmj && vtjs > vtjt && voto == "js")
+            private void btnencerrar_Click(object sender, EventArgs e)
+            {
+                total = vtjs + vtmj + vtjt;
+                pjs = (vtjs / total) * 100;
+                pmj = (vtmj / total) * 100;
+                pjt = (vtjt / total) * 100;
+                if (vtjs > vtmj && vtjs > vtjt)
                 {
                     txtvencedor.Text = "José da Silva";
                     txtvt.Text = vtjs.ToString();
                     txtporcent.Text = pjs.ToString();
                     txttotal.Text = total.ToString();
                 }
-                else if (vtmj > vtjs && vtmj > vtjt && voto == "mj")
+                if (vtmj > vtjs && vtmj > vtjt)
                 {
                     txtvencedor.Text = "Maria Juruma";
                     txtvt.Text = vtmj.ToString();
                     txtporcent.Text = pmj.ToString();
                     txttotal.Text = total.ToString();
                 }
-                else if (vtjt > vtjs && vtjt > vtmj && voto == "jt")
+                if (vtjt > vtmj && vtjt > vtjs)
                 {
                     txtvencedor.Text = "João da Tapioca";
                     txtvt.Text = vtjt.ToString();
@@ -70,8 +62,19 @@ namespace csharpexercs2023
                     txtvencedor.Text = "Votação Inválida (Empate)";
                     txttotal.Text = total.ToString();
                 }
-            }
+
+                // Adiciona o retorno
+                return;
+            
         }
+
+
+        public frmvoto()
+        {
+            InitializeComponent();
+        }
+
+
 
         private void btnlimpar_Click(object sender, EventArgs e)
         {
@@ -91,4 +94,7 @@ namespace csharpexercs2023
         }
     }
 }
+
+        
+    
 

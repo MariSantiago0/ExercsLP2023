@@ -111,7 +111,7 @@
             this.votoToolStripMenuItem.Name = "votoToolStripMenuItem";
             this.votoToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.votoToolStripMenuItem.Text = "Voto";
-            this.votoToolStripMenuItem.Click += new System.EventHandler(this.votoToolStripMenuItem_Click_1);
+            this.votoToolStripMenuItem.Click += new System.EventHandler(this.votoToolStripMenuItem_Click_2);
             // 
             // frmmenu
             // 

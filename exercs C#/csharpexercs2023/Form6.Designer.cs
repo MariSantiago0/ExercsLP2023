@@ -38,7 +38,8 @@
             this.txtvt = new System.Windows.Forms.TextBox();
             this.txtporcent = new System.Windows.Forms.TextBox();
             this.txttotal = new System.Windows.Forms.TextBox();
-            this.btncalcular = new System.Windows.Forms.Button();
+            this.btnvotar = new System.Windows.Forms.Button();
+            this.btnencerrar = new System.Windows.Forms.Button();
             this.btnlimpar = new System.Windows.Forms.Button();
             this.btnvoltar = new System.Windows.Forms.Button();
             this.SuspendLayout();
@@ -46,7 +47,7 @@
             // lblvoto
             // 
             this.lblvoto.AutoSize = true;
-            this.lblvoto.Location = new System.Drawing.Point(16, 21);
+            this.lblvoto.Location = new System.Drawing.Point(14, 25);
             this.lblvoto.Name = "lblvoto";
             this.lblvoto.Size = new System.Drawing.Size(205, 13);
             this.lblvoto.TabIndex = 0;
@@ -55,7 +56,7 @@
             // lblvencedor
             // 
             this.lblvencedor.AutoSize = true;
-            this.lblvencedor.Location = new System.Drawing.Point(16, 54);
+            this.lblvencedor.Location = new System.Drawing.Point(15, 64);
             this.lblvencedor.Name = "lblvencedor";
             this.lblvencedor.Size = new System.Drawing.Size(130, 13);
             this.lblvencedor.TabIndex = 1;
@@ -64,7 +65,7 @@
             // lblvt
             // 
             this.lblvt.AutoSize = true;
-            this.lblvt.Location = new System.Drawing.Point(20, 90);
+            this.lblvt.Location = new System.Drawing.Point(18, 98);
             this.lblvt.Name = "lblvt";
             this.lblvt.Size = new System.Drawing.Size(198, 13);
             this.lblvt.TabIndex = 2;
@@ -73,7 +74,7 @@
             // lblporcent
             // 
             this.lblporcent.AutoSize = true;
-            this.lblporcent.Location = new System.Drawing.Point(21, 122);
+            this.lblporcent.Location = new System.Drawing.Point(20, 133);
             this.lblporcent.Name = "lblporcent";
             this.lblporcent.Size = new System.Drawing.Size(160, 13);
             this.lblporcent.TabIndex = 3;
@@ -82,7 +83,7 @@
             // lbltotal
             // 
             this.lbltotal.AutoSize = true;
-            this.lbltotal.Location = new System.Drawing.Point(21, 150);
+            this.lbltotal.Location = new System.Drawing.Point(17, 164);
             this.lbltotal.Name = "lbltotal";
             this.lbltotal.Size = new System.Drawing.Size(109, 13);
             this.lbltotal.TabIndex = 4;
@@ -90,68 +91,75 @@
             // 
             // txtvoto
             // 
-            this.txtvoto.Location = new System.Drawing.Point(268, 21);
+            this.txtvoto.Location = new System.Drawing.Point(286, 22);
             this.txtvoto.Name = "txtvoto";
-            this.txtvoto.Size = new System.Drawing.Size(133, 20);
+            this.txtvoto.Size = new System.Drawing.Size(135, 20);
             this.txtvoto.TabIndex = 5;
             // 
             // txtvencedor
             // 
-            this.txtvencedor.Location = new System.Drawing.Point(268, 57);
+            this.txtvencedor.Location = new System.Drawing.Point(286, 56);
             this.txtvencedor.Name = "txtvencedor";
-            this.txtvencedor.Size = new System.Drawing.Size(132, 20);
+            this.txtvencedor.Size = new System.Drawing.Size(135, 20);
             this.txtvencedor.TabIndex = 6;
             // 
             // txtvt
             // 
-            this.txtvt.Location = new System.Drawing.Point(268, 91);
+            this.txtvt.Location = new System.Drawing.Point(286, 95);
             this.txtvt.Name = "txtvt";
-            this.txtvt.Size = new System.Drawing.Size(132, 20);
+            this.txtvt.Size = new System.Drawing.Size(134, 20);
             this.txtvt.TabIndex = 7;
             // 
             // txtporcent
             // 
-            this.txtporcent.Location = new System.Drawing.Point(268, 121);
+            this.txtporcent.Location = new System.Drawing.Point(286, 129);
             this.txtporcent.Name = "txtporcent";
-            this.txtporcent.Size = new System.Drawing.Size(132, 20);
+            this.txtporcent.Size = new System.Drawing.Size(134, 20);
             this.txtporcent.TabIndex = 8;
             // 
             // txttotal
             // 
-            this.txttotal.Location = new System.Drawing.Point(268, 150);
+            this.txttotal.Location = new System.Drawing.Point(285, 171);
             this.txttotal.Name = "txttotal";
-            this.txttotal.Size = new System.Drawing.Size(132, 20);
+            this.txttotal.Size = new System.Drawing.Size(135, 20);
             this.txttotal.TabIndex = 9;
             // 
-            // btncalcular
+            // btnvotar
             // 
-            this.btncalcular.Location = new System.Drawing.Point(24, 226);
-            this.btncalcular.Name = "btncalcular";
-            this.btncalcular.Size = new System.Drawing.Size(141, 47);
-            this.btncalcular.TabIndex = 10;
-            this.btncalcular.Text = "Calcular";
-            this.btncalcular.UseVisualStyleBackColor = true;
-            this.btncalcular.Click += new System.EventHandler(this.btncalcular_Click);
+            this.btnvotar.Location = new System.Drawing.Point(21, 230);
+            this.btnvotar.Name = "btnvotar";
+            this.btnvotar.Size = new System.Drawing.Size(123, 43);
+            this.btnvotar.TabIndex = 10;
+            this.btnvotar.Text = "Votar";
+            this.btnvotar.UseVisualStyleBackColor = true;
+            this.btnvotar.Click += new System.EventHandler(this.btnvotar_Click);
+            // 
+            // btnencerrar
+            // 
+            this.btnencerrar.Location = new System.Drawing.Point(179, 230);
+            this.btnencerrar.Name = "btnencerrar";
+            this.btnencerrar.Size = new System.Drawing.Size(116, 42);
+            this.btnencerrar.TabIndex = 11;
+            this.btnencerrar.Text = "Encerrar";
+            this.btnencerrar.UseVisualStyleBackColor = true;
             // 
             // btnlimpar
             // 
-            this.btnlimpar.Location = new System.Drawing.Point(219, 226);
+            this.btnlimpar.Location = new System.Drawing.Point(363, 230);
             this.btnlimpar.Name = "btnlimpar";
-            this.btnlimpar.Size = new System.Drawing.Size(128, 46);
-            this.btnlimpar.TabIndex = 11;
+            this.btnlimpar.Size = new System.Drawing.Size(125, 43);
+            this.btnlimpar.TabIndex = 12;
             this.btnlimpar.Text = "Limpar";
             this.btnlimpar.UseVisualStyleBackColor = true;
-            this.btnlimpar.Click += new System.EventHandler(this.btnlimpar_Click);
             // 
             // btnvoltar
             // 
-            this.btnvoltar.Location = new System.Drawing.Point(440, 226);
+            this.btnvoltar.Location = new System.Drawing.Point(542, 229);
             this.btnvoltar.Name = "btnvoltar";
-            this.btnvoltar.Size = new System.Drawing.Size(127, 45);
-            this.btnvoltar.TabIndex = 12;
+            this.btnvoltar.Size = new System.Drawing.Size(129, 44);
+            this.btnvoltar.TabIndex = 13;
             this.btnvoltar.Text = "Voltar";
             this.btnvoltar.UseVisualStyleBackColor = true;
-            this.btnvoltar.Click += new System.EventHandler(this.btnvoltar_Click);
             // 
             // frmvoto
             // 
@@ -160,7 +168,8 @@
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.btnvoltar);
             this.Controls.Add(this.btnlimpar);
-            this.Controls.Add(this.btncalcular);
+            this.Controls.Add(this.btnencerrar);
+            this.Controls.Add(this.btnvotar);
             this.Controls.Add(this.txttotal);
             this.Controls.Add(this.txtporcent);
             this.Controls.Add(this.txtvt);
@@ -190,7 +199,8 @@
         private System.Windows.Forms.TextBox txtvt;
         private System.Windows.Forms.TextBox txtporcent;
         private System.Windows.Forms.TextBox txttotal;
-        private System.Windows.Forms.Button btncalcular;
+        private System.Windows.Forms.Button btnvotar;
+        private System.Windows.Forms.Button btnencerrar;
         private System.Windows.Forms.Button btnlimpar;
         private System.Windows.Forms.Button btnvoltar;
     }
