@@ -1,8 +1,8 @@
 EXERCÍCIOS DO VISUALG PASSADOS EM SALA DE AULA
 EXERCÍCIO 1
 criação do arquivo Gasolina.alg
-    definição da variável comb do tipo caracter e das variáveis pre, val, lit e desc do tipo real
-    início do algoritmo
+definição da variável comb do tipo caracter e das variáveis pre, val, lit e desc do tipo real
+início do algoritmo
     comando "escreva" pedindo para o usuário digitar o tipo de combustível usado pelo veículo e definição do uso da variável "comb"
     comando "escreva" pedindo para o usuário digitar quantos litros abastecerá e definição do uso da variável "lit"
     comando "se" verificando se é gasolina
@@ -22,7 +22,7 @@ declaração das variáveis porcentjs, porcentmj, porcentjt, votototal, votojs, 
 início do algoritmo
     variável i recebe o valor 0
     comando "enquanto" definindo um looping a partir da variável i
-    comando "escreva" pedindo para o usuário escrever o nome do candidato que deseja votar e definição do 
+    comando "escreva" pedindo para o usuário escrever o nome do candidato que deseja votar e definição da variável voto
     comando "se" verificando se o candidato José da Silva que recebeu o voto
     caso a condição seja verdadeira, a variável vtjs recebe o valor 1
     comando "enquanto" definindo um looping a partir da variável vtjs
@@ -52,3 +52,36 @@ início do algoritmo
     finalização de três condições e de quatro looping
 finalização do algoritmo
 EXERCÍCIO 3
+criação do arquivo TABENQUANTO.ALG
+declaração das variáveis num e tab do tipo real e variável i de tipo inteiro
+início do algoritmo
+    comando "escreval" pedindo ao usuário para digitar o número da tabuada desejada e definição do uso da variável num
+    variável i recebe o valor 1
+    comando "enquanto" define um looping a partir da variável i até cehgar no número 10
+    variável tab recebe num multiplicado por i
+    comando "escreva" exibe os resultados da tabuada
+    i recebe a soma de i mais 1
+    finalização do looping 
+finalização do algoritmo
+criação do arquivo tabrepita.ALG
+definição das variáveis num e tab do tipo real e variável i do tipo inteiro
+inicio do algoritmo
+    comando "escreval" pedindo ao usuário para digitar o número da tabuada desejada e definição do uso da variável num
+    variável i recebe o valor 1
+    comando "repita" inicia o looping utilizando a variável i até chegar no número 10
+    variável tab recebe num multiplicado por i
+    comando "escreva" exibe os resultados da tabuada
+    i recebe soma de i mais 1
+    finalização do looping
+finalização do algoritmo
+criação do arquivo tabpara.ALG
+definição das variáveis num e tab do tipo real e variável i do tipo inteiro
+inicio do algoritmo
+    comando "escreval" pedindo ao usuário para digitar o número da tabuada desejada e definição do uso da variável num
+    variável i recebe o valor 1
+    comando "para" define um looping a partir de i até chegar em 10
+    variável tab recebe num multiplicado por i
+    comando "escreva" exibe os resultados da tabuada
+    i recebe soma de i mais 1
+    finalização do looping
+finalização do algoritmo
