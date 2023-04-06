@@ -81,7 +81,7 @@
             // 
             // btnlimpar
             // 
-            this.btnlimpar.Location = new System.Drawing.Point(34, 240);
+            this.btnlimpar.Location = new System.Drawing.Point(215, 174);
             this.btnlimpar.Name = "btnlimpar";
             this.btnlimpar.Size = new System.Drawing.Size(119, 43);
             this.btnlimpar.TabIndex = 5;
@@ -91,9 +91,9 @@
             // 
             // btnvoltar
             // 
-            this.btnvoltar.Location = new System.Drawing.Point(35, 301);
+            this.btnvoltar.Location = new System.Drawing.Point(410, 174);
             this.btnvoltar.Name = "btnvoltar";
-            this.btnvoltar.Size = new System.Drawing.Size(118, 39);
+            this.btnvoltar.Size = new System.Drawing.Size(124, 43);
             this.btnvoltar.TabIndex = 6;
             this.btnvoltar.Text = "Voltar";
             this.btnvoltar.UseVisualStyleBackColor = true;

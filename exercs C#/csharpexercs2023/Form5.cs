@@ -29,17 +29,16 @@ namespace csharpexercs2023
             int i = 1;
             string tabfor = "";
 
-            for (i=1; 1<=10; i++)
+            for (i = 1; i <= 10; i++)
             {
                 double tabforresult = num * i;
                 tabfor += tabforresult.ToString() + " \n ";
-                i++;
-            } 
+            }
 
             txttabforresult.Text = tabfor;
         }
 
-        private void btnlimpar_Click(object sender, EventArgs e)
+            private void btnlimpar_Click(object sender, EventArgs e)
         {
             txtnum.Clear();
             txttabforresult.Clear();

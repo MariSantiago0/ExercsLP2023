@@ -13,70 +13,62 @@ namespace csharpexercs2023
     public partial class frmvoto : Form
     {
 
-            double vtjs = 0, vtmj = 0, vtjt = 0, total, pjs, pmj, pjt;
-            string voto;
+        double vtjs = 0, vtmj = 0, vtjt = 0, total, pjs, pmj, pjt;
+        string voto;
 
-            private void btnvotar_Click(object sender, EventArgs e)
-            {
-                voto = Convert.ToString(txtvoto.Text);
-                if (voto == "js")
-                    vtjs++;
-                if (voto == "mj")
-                    vtmj++;
-                if (voto == "jt")
-                    vtjt++;
-
-                // Adiciona o retorno
-                return;
-            }
-
-            private void btnencerrar_Click(object sender, EventArgs e)
-            {
-                total = vtjs + vtmj + vtjt;
-                pjs = (vtjs / total) * 100;
-                pmj = (vtmj / total) * 100;
-                pjt = (vtjt / total) * 100;
-                if (vtjs > vtmj && vtjs > vtjt)
-                {
-                    txtvencedor.Text = "José da Silva";
-                    txtvt.Text = vtjs.ToString();
-                    txtporcent.Text = pjs.ToString();
-                    txttotal.Text = total.ToString();
-                }
-                if (vtmj > vtjs && vtmj > vtjt)
-                {
-                    txtvencedor.Text = "Maria Juruma";
-                    txtvt.Text = vtmj.ToString();
-                    txtporcent.Text = pmj.ToString();
-                    txttotal.Text = total.ToString();
-                }
-                if (vtjt > vtmj && vtjt > vtjs)
-                {
-                    txtvencedor.Text = "João da Tapioca";
-                    txtvt.Text = vtjt.ToString();
-                    txtporcent.Text = pjt.ToString();
-                    txttotal.Text = total.ToString();
-                }
-                else
-                {
-                    txtvencedor.Text = "Votação Inválida (Empate)";
-                    txttotal.Text = total.ToString();
-                }
-
-                // Adiciona o retorno
-                return;
-            
-        }
-
-
-        public frmvoto()
+        private void btnvotar_Click(object sender, EventArgs e)
         {
-            InitializeComponent();
+            voto = Convert.ToString(txtvoto.Text);
+            if (voto == "js")
+                vtjs++;
+            if (voto == "mj")
+                vtmj++;
+            if (voto == "jt")
+                vtjt++;
+        }
+
+        private void btnencerrar_Click(object sender, EventArgs e)
+        {
+            total = vtjs + vtmj + vtjt;
+            pjs = (vtjs / total) * 100;
+            pmj = (vtmj / total) * 100;
+            pjt = (vtjt / total) * 100;
+            if (vtjs > vtmj && vtjs > vtjt)
+            {
+                txtvencedor.Text = "José da Silva recebeu" + vtjs + " equivalente a " + pjs + "%";
+                txttotal.Text = total.ToString();
+            }
+            if (vtmj > vtjs && vtmj > vtjt)
+            {
+                txtvencedor.Text = "Maria Juruma recebeu" + vtmj + " equivalente a " + pmj + "%";
+                txttotal.Text = total.ToString();
+            }
+            if (vtjt > vtmj && vtjt > vtjs)
+            {
+                txtvencedor.Text = "João da Tapioca recebeu" + vtjt + " equivalente a " + pjt + "%";
+                txttotal.Text = total.ToString();
+            }
+            else
+            {
+                txtvencedor.Text = "Votação Inválida (Empate)";
+                txttotal.Text = total.ToString();
+            }
         }
 
 
 
-        private void btnlimpar_Click(object sender, EventArgs e)
+
+
+
+
+        private void btnvoltar_Click(object sender, EventArgs e)
+        {
+            frmmenu menu = new frmmenu();
+            this.Hide();
+            menu.Show();
+        }
+
+        private void btnlimpar_Click_1(object sender, EventArgs e)
         {
             txtvoto.Clear();
             txtvencedor.Clear();
@@ -86,12 +78,18 @@ namespace csharpexercs2023
             txtvoto.Focus();
         }
 
-        private void btnvoltar_Click(object sender, EventArgs e)
+        
+
+        public frmvoto()
         {
-            frmmenu menu = new frmmenu();
-            this.Hide();
-            menu.Show();
+            InitializeComponent();
         }
+
+
+
+       
+
+        
     }
 }
 

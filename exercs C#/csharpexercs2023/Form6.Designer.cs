@@ -151,6 +151,7 @@
             this.btnlimpar.TabIndex = 12;
             this.btnlimpar.Text = "Limpar";
             this.btnlimpar.UseVisualStyleBackColor = true;
+            this.btnlimpar.Click += new System.EventHandler(this.btnlimpar_Click_1);
             // 
             // btnvoltar
             // 
@@ -160,6 +161,7 @@
             this.btnvoltar.TabIndex = 13;
             this.btnvoltar.Text = "Voltar";
             this.btnvoltar.UseVisualStyleBackColor = true;
+            this.btnvoltar.Click += new System.EventHandler(this.btnvoltar_Click);
             // 
             // frmvoto
             // 
